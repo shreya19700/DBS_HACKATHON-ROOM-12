@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>LOGIN</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-image: url(https://images.pexels.com/photos/325200/pexels-photo-325200.jpeg?auto=compress&cs=tinysrgb&w=600);
+			background-repeat: no-repeat;
+			margin-left:10%;
+			margin-right:10%;
+			height:100%;
+			background-size: cover;
+		}
+		.hd{
+			text-align: center;
+			padding:10px;
+			margin-left: 5%;
+			margin-right: 5%;
+			color:#cc0066;
+			font-weight: bold;
+			font-size:40px;
+		}
+		.main{
+			border:1px blue solid;
+			background-color: yellow;
+			border-radius: 10px;
+			text-align: center;
+			margin-left:22%;
+			margin-right: 33.3%;
+			padding:10px;
+			margin-bottom: 10px;
+			width:700px;
+			color:red;
+		}
+		.menu{
+			border:1px black solid;
+			border-radius: 13px;
+			background-color: white;
+			color:green;
+			font-weight: bold;
+			font-size:18px;
+			text-align:center;
+			margin-right:15px;
+			padding:5px;
+			padding-left: 5px;
+			padding-right: 5px;
+			width:150px;
+		}
+		a:hover{
+		color:red;
+	}
+	a:link{
+		color: green;
+		text-decoration: none;
+	}
+	
+
+	</style>
+</head>
+<body>
+<header>
+	<h1 class="hd">National InformaTion Railway Reservation<br/></h1>
+	<div class="main">
+		<p1 class="menu"><a href="UserLogin.html">Login as User</a></p1>
+		<p1 class="menu"><a href="UserRegister.html">New User Register</a></p1>
+		<p1 class="menu"><a href="Avalaibility.html">Available Seats</a></p1>
+		<p1 class="menu"><a href="About.html">About</a></p1>
+	</div>
+</header>
+</body>
+</html>
